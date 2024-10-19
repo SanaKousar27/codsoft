@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    align-items: center; /* Center-aligns horizontally */
+    justify-content: center; /* Center-aligns vertically */
+    background-color: #4CAF50;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 40px; /* Space below the heading */
+}
+
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align buttons */
+    gap: 40px; /* Space between buttons */
+    margin-top: 20px; /* Space above the button container */
+}
+
+.cta-button:hover, .feature-button:hover {
+    background-color: #ff4500;
+    transform: scale(1.75); /* Scale effect on hover */
+}
+
+.features {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px; /* Increased width for more content */
+    transition: box-shadow 0.3s;
+}
+
+.feature:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* New CSS to adjust the position of the Learn More button */
+.feature-button {
+    margin-top: 30px; /* Adjust this value to move the button down */
+}
+
+
+.about, .services, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
